@@ -1,0 +1,31 @@
+{
+  "name": "websocket-study",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "damage-calc": "git+https://github.com/progedu/damage-calc-4006.git",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-session": "1.17.3",
+    "helmet": "5.0.2",
+    "http-errors": "~1.6.2",
+    "jquery": "3.6.0",
+    "morgan": "~1.9.0",
+    "passport": "0.6.0",
+    "passport-github2": "0.1.12",
+    "pug": "3.0.2",
+    "socket.io": "4.4.1",
+    "socket.io-client": "4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.17.5",
+    "@babel/preset-env": "7.16.11",
+    "babel-loader": "8.2.3",
+    "webpack": "5.69.1",
+    "webpack-cli": "4.9.2"
+  }
+}
